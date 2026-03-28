@@ -1,0 +1,2 @@
+// Limits xUnit to 2 concurrent test threads, so Chrome and Firefox variants of the same UC run in parallel without spawning many browsers at once
+[assembly: CollectionBehavior(MaxParallelThreads = 2, DisableTestParallelization = false)]

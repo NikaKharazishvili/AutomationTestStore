@@ -1,0 +1,26 @@
+# Build output
+bin/
+obj/
+
+# Test logs
+logs/
+
+# Rider
+.idea/
+
+# Visual Studio
+.vs/
+*.user
+
+# VS Code
+.vscode/
+
+# NuGet
+*.nupkg
+project.assets.json
+project.nuget.cache
+packages/
+
+# OS
+.DS_Store
+Thumbs.db
